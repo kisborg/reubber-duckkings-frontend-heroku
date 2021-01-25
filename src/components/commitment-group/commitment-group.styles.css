@@ -1,0 +1,30 @@
+.commitment-group-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: '100%',
+}
+
+.calendar-block {
+  background-color:transparent;
+  color: black; 
+  max-height: 35px;
+  min-height: 35px; 
+  margin: 0px;
+  overflow-y: visible;
+  position: relative;
+}
+
+.calendar-block:nth-child(odd) {
+  background-color:rgba(255, 255, 255, 0.1);
+}
+
+.commitment-item {
+  display: block;
+  border: none;
+  margin: 0 auto;
+}
+
+.group-title {
+  color: white;
+}
